@@ -1,0 +1,199 @@
+body, span, h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Raleway', sans-serif;
+  color:#061e37;
+}
+p{
+  font-size:14px;
+}
+.header {
+  background: linear-gradient(to right,#1ae7c0, rgba(25, 193, 211, 0.85)),
+              url(img/head1.jpg) 0% 0%/cover;
+               min-height: 60vh;
+}
+.background--img{
+  background: linear-gradient(to right,#1ae7c0, rgba(25, 193, 211, 0.85)),
+              url(img/Rectangle-1-copy-3.jpg) 0% 0%/cover;
+               min-height: 60vh;
+}
+.btn--color{
+  background: #061e37;
+}
+.button--width{
+  width: 120px;
+}
+.button--text{
+font-family: 'Roboto', sans-serif;
+}
+.nav--act:active,
+.nav--act:focus{
+  color:#000!important;
+}
+.window--iframe{
+  width: 500px;
+  height: 300px;
+}
+.line--height{
+line-height: 2em;
+}
+.icon--size{
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+}
+.icon--text{
+  font-size: 15px;
+}
+.mt--h2{
+  margin-top: 75px;
+}
+.a--100{
+display: block;
+  height: 100%;
+
+}
+.footer--nav{
+  color:#fff;
+  font-size: 5px;
+  padding-right:15px;
+}
+/*<!-- Carousel -->*/
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+.carousel-control-prev {
+  left: 45%!important;
+  top:90%!important;
+z-index:9;
+}
+.carousel-control-next {
+  right: 41%!important;
+  top:-90%!important;
+}
+.carousel--icon {
+  transform: rotate(-90deg);
+}
+.card--wraper{
+  max-width: 100%;
+}
+.card2--wraper {
+  max-width: 100%;
+}
+.card--width{
+  max-width: 100%;
+}
+.img--wraper{
+  padding-right: 15px;
+}
+.img--w{
+  width: 70px;
+ border-radius: 50px;
+}
+.icon--50{
+  opacity: 0.5;
+}
+/*<!-- carousel -->*/
+/*<!-- carousel -->*/
+.example-desc {
+       margin:3px 0;
+       padding:5px;
+     }
+
+     #carousel {
+      max-width:960px;
+       height:300px;
+       position:relative;
+       clear:both;
+       overflow:hidden;
+       background:#FFF;
+       margin: 0 auto;
+     }
+     #carousel > img {
+       visibility:hidden;
+       cursor:pointer;
+       width: 150px;
+     }
+     .split-left {
+       width:450px;
+       float:left;
+     }
+     .split-right {
+       width:400px;
+       float:left;
+       margin-left:10px;
+     }
+     #callback-output {
+       height:250px;
+       overflow:scroll;
+     }
+     textarea#newoptions {
+       width:430px;
+     }
+   /*<!-- carousel -->*/
+.form--width{
+  width:60%;
+  height: 225px;
+}
+.form--heidht{
+  height: 60px;
+}
+.form--Message{
+  width:63%;
+    height: 150px;
+}
+.border--form{
+  border-radius: 5px!important;
+  border: 1px solid #061e37!important;
+}
+
+@media screen and (max-width: 768px ){
+  .window--iframe{
+    width: 60%;
+    height: auto;
+  }
+  .card2--wraper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form--width{
+    width:90%;
+    height: 150px;
+  }
+  .form--Message{
+    width:97%;
+    height: 100px;
+     margin-top:24px;
+  }
+  .form--heidht{
+    height: 40px;
+  }
+ }
+
+@media screen and (max-width: 580px ){
+  .window--iframe{
+    width: 95%;
+    height:auto;
+  }
+  .line--height{
+  line-height: 1.5em;
+  }
+  .carousel-control-prev {
+    left: 41%!important;
+  }
+  .carousel-control-next {
+    right: 44%!important;
+  }
+}
