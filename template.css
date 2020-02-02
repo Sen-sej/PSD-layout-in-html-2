@@ -152,7 +152,7 @@ z-index:9;
 }
 .form--Message{
   width:63%;
-    height: 150px;
+    height: 138px;
 }
 .border--form{
   border-radius: 5px!important;
@@ -174,7 +174,6 @@ z-index:9;
   }
   .form--Message{
     width:97%;
-    height: 100px;
      margin-top:24px;
   }
   .form--heidht{
